@@ -1,0 +1,370 @@
+[INFO] [2020-10-28 11:27:39,176 +0200[ - UnifiedAgent version (pluginVersion) : 20.9.1
+[INFO] [2020-10-28 11:27:39,302 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2020-10-28 11:27:39,302 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[INFO] [2020-10-28 11:27:39,321 +0200[ - 
+##### general #####
+wss.url=https://saas.whitesourcesoftware.com/agent
+userKey=******
+projectTag=
+projectName=dockerRun
+productName=azureDO
+log.level=debug
+includes=**/*.*
+forceUpdate.failBuildOnPolicyViolation=false
+forceUpdate=false
+forceCheckAllDependencies=false
+excludes=**/*sources.jar,**/*javadoc.jar
+configFilePath=C:\Users\ElikKatz\Documents\WhiteSource\azure-repo-dockerRun\wss-unified-agent.config
+checkPolicies=true
+apiKey=******
+#whiteSourceFolderPath=.
+#updateType=OVERRIDE
+#updateInventory=true
+#updateEmptyProject=true
+#scanReportTimeoutMinutes=10
+#scanReportFilenameFormat=project_with_timestamp
+#scanPackageManager=false
+#scanComment=
+#resolveAllDependencies=true
+#requireKnownSha1=true
+#requesterEmail=
+#recommendationDetector=false
+#projectVersion=
+#projectToken=
+#projectPerFolderIncludes=*
+#projectPerFolderExcludes=
+#projectPerFolder=false
+#productVersion=
+#productToken=
+#offline.zip=false
+#offline.prettyJson=true
+#offline=false
+#ignoreSourceFiles=false
+#iaLanguage=
+#generateScanReport=false
+#generateProjectDetailsJson=false
+#failErrorLevel=DEFAULT
+#excludeDependenciesFromNodes=
+#euaVul=euaVul.json
+#euaRes=euaRes.json
+#euaOffline=
+#euaDep=euaDep.json
+#enableImpactAnalysis=false
+#docker.scanContainers=false
+#appPath=
+#analyzeMultiModule=
+#analyzeFrameworksReference=analyzeFrameworks.txt
+#analyzeFrameworks=false
+
+#####  #####
+#ignoreEuaNotices=informational
+
+##### ANT #####
+#ant.resolveDependencies=true
+#ant.pathIdIncludes=
+#ant.external.parameters=
+
+##### archive #####
+archiveIncludes=**/*.war,**/*.ipa
+archiveExtractionDepth=2
+#archiveExcludes=
+
+##### artifactory #####
+#artifactory.userPassword=
+#artifactory.userName=
+#artifactory.url=
+#artifactory.repoKeys=
+#artifactory.includes=.*.*
+#artifactory.excludes=
+#artifactory.enableScan=false
+#artifactory.accessToken=
+
+##### bazel #####
+#bazel.runPreStep=false
+#bazel.resolveDependencies=true
+
+##### bower #####
+#bower.runPreStep=false
+#bower.resolveDependencies=true
+#bower.ignoreSourceFiles=false
+
+##### cabal #####
+#haskell.resolveDependencies=true
+
+##### cargo #####
+#cargo.runPreStep=false
+#cargo.resolveDependencies=true
+#cargo.ignoreSourceFiles=true
+
+##### cocoapods #####
+#cocoapods.runPreStep=false
+#cocoapods.resolveDependencies=true
+#cocoapods.ignoreSourceFiles=true
+
+##### docker #####
+docker.scanImages=true
+docker.pull.images=.*.*
+docker.pull.enable=true
+docker.includes=.*.*
+#docker.scanTarFiles=false
+#docker.scan.maxImages=0
+#docker.pull.tags=
+#docker.pull.maxImages=10
+#docker.pull.force=false
+#docker.pull.digest=
+#docker.projectNameFormat=default
+#docker.login.sudo=true
+#docker.layers=false
+#docker.includeSingleScan=
+#docker.excludes=
+#docker.delete.force=false
+#docker.containerIncludes=.*.*
+#docker.containerExcludes=
+
+##### docker artifactory #####
+#docker.artifactory.userPassword=
+#docker.artifactory.userName=
+#docker.artifactory.url=
+#docker.artifactory.repositoriesNames=
+#docker.artifactory.pullUrl=
+#docker.artifactory.enable=false
+#docker.artifactory.dockerAccessMethod= 
+
+##### docker aws #####
+#docker.aws.registryIds=
+#docker.aws.region=east
+#docker.aws.enable=false
+
+##### docker azure #####
+#docker.azure.userPassword=
+#docker.azure.userName=
+#docker.azure.registryNames=
+#docker.azure.registryAuthenticationParameters=
+#docker.azure.enable=false
+#docker.azure.authenticationType=UserAccount
+
+##### docker google containers #####
+#docker.gcr.repositories=
+#docker.gcr.enable=false
+#docker.gcr.account=
+
+##### docker hub #####
+docker.hub.userPassword=******
+docker.hub.userName=elikkatz
+docker.hub.organizationsNames=elikkatz
+docker.hub.enabled=true
+#docker.hub.accessToken=
+
+##### environment #####
+followSymbolicLinks=true
+case.sensitive.glob=false
+
+##### go #####
+#go.resolveDependencies=true
+#go.ignoreSourceFiles=false
+#go.gogradle.enableTaskAlias=false
+#go.glide.ignoreTestPackages=true
+#go.dependencyManager=
+#go.collectDependenciesAtRuntime=false
+
+##### gradle #####
+#gradle.wrapperPath=
+#gradle.runPreStep=false
+#gradle.runAssembleCommand=true
+#gradle.resolveDependencies=true
+#gradle.preferredEnvironment=gradle
+#gradle.multiModule.applyProjectVersion=false
+#gradle.localRepositoryPath=
+#gradle.includedScopes=
+#gradle.includedConfigurations=
+#gradle.includeModules=
+#gradle.ignoredScopes=
+#gradle.ignoredConfigurations=
+#gradle.ignoreSourceFiles=false
+#gradle.excludeModules=
+#gradle.aggregateModules=false
+#gradle.additionalArguments=
+
+##### hex #####
+#hex.runPreStep=false
+#hex.resolveDependencies=true
+#hex.ignoreSourceFiles=true
+#hex.aggregateModules=false
+
+##### html #####
+#html.resolveDependencies=true
+
+##### maven #####
+#maven.runPreStep=false
+#maven.resolveDependencies=true
+#maven.projectNameFromDependencyFile=false
+#maven.multiModule.applyProjectVersion=false
+#maven.maxCacheFolderSize=
+#maven.m2RepositoryPath=
+#maven.ignoredScopes=provided,test
+#maven.ignoreSourceFiles=false
+#maven.ignorePomModules=true
+#maven.ignoreMvnTreeErrors=false
+#maven.environmentPath=
+#maven.downloadMissingDependencies=true
+#maven.aggregateModules=false
+#maven.additionalArguments=
+
+##### npm #####
+#npm.yarnProject=false
+#npm.yarn.frozenLockfile=false
+#npm.timeoutDependenciesCollectorInSeconds=60
+#npm.runPreStep=false
+#npm.resolveMainPackageJsonOnly=false
+#npm.resolveLockFile=false
+#npm.resolveGlobalPackages=false
+#npm.resolveDependencies=true
+#npm.resolveAdditionalDependencies=false
+#npm.removeDuplicateDependencies=true
+#npm.projectNameFromDependencyFile=false
+#npm.includeDevDependencies=false
+#npm.ignoreSourceFiles=true
+#npm.ignoreScripts=false
+#npm.ignoreNpmLsErrors=false
+#npm.ignoreJavaScriptFiles=true
+#npm.ignoreDirectoryPatterns=example,examples,.ws_bower,test
+#npm.identifyByNameAndVersion=false
+#npm.failOnNpmLsErrors=
+#npm.accessToken=
+
+##### nuget #####
+#nuget.runPreStep=false
+#nuget.restoreDependencies=false
+#nuget.resolvePackagesConfigFiles=true
+#nuget.resolveNuspecFiles=true
+#nuget.resolveDependencies=true
+#nuget.resolveCsProjFiles=true
+#nuget.resolveAssetsFiles=true
+#nuget.preferredEnvironment=
+#nuget.packagesDirectory=
+#nuget.ignoreSourceFiles=true
+
+##### ocaml #####
+#ocaml.switchName=
+#ocaml.runPreStep=false
+#ocaml.resolveDependencies=true
+#ocaml.ignoredScopes=with-test,with-doc
+#ocaml.ignoreSourceFiles=false
+#ocaml.aggregateModules=false
+
+##### paket #####
+#paket.runPreStep=false
+#paket.resolveDependencies=true
+#paket.ignoredGroups=
+#paket.ignoreSourceFiles=true
+#paket.exePath=
+
+##### php #####
+#php.runPreStep=false
+#php.resolveDependencies=true
+#php.includeDevDependencies=false
+#php.ignoreSourceFiles=true
+
+##### python #####
+#python.runPoetryPreStep=false
+#python.runPipenvPreStep=false
+#python.resolveSetupPyFiles=false
+#python.resolvePipEditablePackages=false
+#python.resolveHierarchyTree=true
+#python.resolveGlobalPackages=false
+#python.resolveDependencies=true
+#python.requirementsFileIncludes=
+#python.pipenvDevDependencies=false
+#python.pipPath=pip
+#python.path=python
+#python.localPackagePathsToInstall=
+#python.isEmptyEnvironment=false
+#python.installVirtualenv=false
+#python.indexUrl=
+#python.includePoetryDevDependencies=false
+#python.ignoreSourceFiles=true
+#python.ignorePipInstallErrors=false
+#python.IgnorePipenvInstallErrors=false
+
+##### r_language #####
+#r.runPreStep=false
+#r.resolveDependencies=true
+#r.packageManager=packrat
+#r.ignoreSourceFiles=true
+#r.cranMirrorUrl=
+
+##### ruby #####
+#ruby.runBundleInstall=false
+#ruby.resolveDependencies=true
+#ruby.overwriteGemFile=false
+#ruby.installMissingGems=false
+#ruby.ignoreSourceFiles=true
+
+##### sbt #####
+sbt.targetFolder=
+#sbt.runPreStep=false
+#sbt.resolveDependencies=true
+#sbt.includedScopes=compile,runtime
+#sbt.ignoreSourceFiles=false
+#sbt.aggregateModules=false
+
+##### scm #####
+#scm.url=
+#scm.tag=
+#scm.branch=
+
+##### serverless #####
+#serverless.scanFunctions=false
+#serverless.region=
+#serverless.provider=aws-lambda
+#serverless.maxFunctions=10
+#serverless.includes=
+#serverless.excludes=
+
+[INFO] [2020-10-28 11:27:39,335 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Docker Resolver Scan -----------------------
+------------------------------------------------------------------------
+[DEBUG] [2020-10-28 11:27:39,336 +0200[ - Executing command: cmd /c docker --version
+[INFO] [2020-10-28 11:27:41,960 +0200[ - loginRemoteDocker - using user/pass to login to docker hub
+[DEBUG] [2020-10-28 11:27:41,965 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c docker login --username elikkatz --password *******' in '.'
+[WARN] [2020-10-28 11:27:44,030 +0200[ - CommandLineProcess - executeProcessCommand - error in execute command 'cmd /c docker login --username elikkatz --password *******', Exit Status 1
+[WARN] [2020-10-28 11:27:44,031 +0200[ - HubRemoteDocker - cliLogin - failed to login Cli
+[WARN] [2020-10-28 11:27:44,031 +0200[ - Docker remote repository failed
+[DEBUG] [2020-10-28 11:27:44,031 +0200[ - Show docker images list
+[DEBUG] [2020-10-28 11:27:44,032 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c docker images' in '.'
+[DEBUG] [2020-10-28 11:27:44,200 +0200[ - Command result output lines for 'cmd /c docker images':
+[DEBUG] [2020-10-28 11:27:44,201 +0200[ - Read line #1: REPOSITORY                                           TAG                         IMAGE ID            CREATED             SIZE
+[DEBUG] [2020-10-28 11:27:44,201 +0200[ - Read line #2: aveva_edge_hmi_iotview                               linux_x86_local_build.110   d57a1b545145        3 months ago        366MB
+[DEBUG] [2020-10-28 11:27:44,201 +0200[ - Read line #3: dockerized_ua                                        2020-07-21                  7a0293ecaab0        3 months ago        1.19GB
+[DEBUG] [2020-10-28 11:27:44,201 +0200[ - Read line #4: gcr.io/unique-caldron-775/cnx/tigera/elasticsearch   release-calient-v3.2        0ed8f4eabca3        3 months ago        947MB
+[DEBUG] [2020-10-28 11:27:44,201 +0200[ - Read line #5: mcr.microsoft.com/dotnet/core/aspnet                 3.1                         8aa5a7e8b51a        3 months ago        207MB
+[DEBUG] [2020-10-28 11:27:44,201 +0200[ - Read line #6: ubuntu                                               18.04                       d27b9ffc5667        3 months ago        64.2MB
+[DEBUG] [2020-10-28 11:27:44,202 +0200[ - Read line #7: ubuntu_new                                           latest                      d27b9ffc5667        3 months ago        64.2MB
+[DEBUG] [2020-10-28 11:27:44,202 +0200[ - Read line #8: tigera_dockerfile-test                               20200630                    0e3cade095b2        4 months ago        183MB
+[DEBUG] [2020-10-28 11:27:44,202 +0200[ - Read line #9: quay.io/tigera/operator                              release-v1.2                c43de2b2653a        4 months ago        50.1MB
+[DEBUG] [2020-10-28 11:27:44,202 +0200[ - Read line #10: quay.io/calico/cni                                   release-v3.12               4db94e3cd0ae        4 months ago        291MB
+[DEBUG] [2020-10-28 11:27:44,202 +0200[ - Read line #11: gcr.io/unique-caldron-775/smc/cnx-node               2.7-cleanup                 aad0899b2860        4 months ago        159MB
+[DEBUG] [2020-10-28 11:27:44,202 +0200[ - Read line #12: registry.access.redhat.com/ubi8/ubi-minimal          8.2-301.1592810506          c58d4cf08dc2        4 months ago        142MB
+[DEBUG] [2020-10-28 11:27:44,202 +0200[ - Read line #13: docker.elastic.co/kibana/kibana                      7.6.2                       f70986bc5191        7 months ago        1.01GB
+[DEBUG] [2020-10-28 11:27:44,203 +0200[ - Read line #14: ostaptuz/kafka_2.12-2.4.0                            latest                      034e1251a591        8 months ago        65.7MB
+[DEBUG] [2020-10-28 11:27:44,203 +0200[ - Read line #15: whitesourcedocker/whitesource-scan                   1.3.0                       ef91ba1b2e80        11 months ago       2.55GB
+[INFO] [2020-10-28 11:27:44,205 +0200[ - Filtering docker list by includes and excludes lists
+[INFO] [2020-10-28 11:27:44,205 +0200[ - Handle 14 docker entities
+[INFO] [2020-10-28 11:27:44,205 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Docker Entity ------------------------------
+------------------------------------------------------------------------
+[INFO] [2020-10-28 11:27:44,206 +0200[ - Image 1 of 14
+[DEBUG] [2020-10-28 11:27:44,207 +0200[ - Saving docker Image - aveva_edge_hmi_iotview
+[DEBUG] [2020-10-28 11:27:44,208 +0200[ - Add image name 'aveva_edge_hmi_iotview', tag 'linux_x86_local_build.110' and id 'd57a1b545145' to project tags
+[DEBUG] [2020-10-28 11:27:44,210 +0200[ - Start saving Image 'aveva_edge_hmi_iotview'
+[DEBUG] [2020-10-28 11:27:44,210 +0200[ - Executing command: [docker, save, d57a1b545145, -o, C:\Users\ElikKatz\AppData\Local\Temp\ws-ua_20201028112738_QCYTUE\Docker_XETXER\20201028112744\aveva_edge_hmi_iotview.tar]
+[DEBUG] [2020-10-28 11:27:44,210 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'docker save d57a1b545145 -o C:\Users\ElikKatz\AppData\Local\Temp\ws-ua_20201028112738_QCYTUE\Docker_XETXER\20201028112744\aveva_edge_hmi_iotview.tar' in '.'
+[INFO] [2020-10-28 11:27:50,322 +0200[ - Extracting file C:\Users\ElikKatz\AppData\Local\Temp\ws-ua_20201028112738_QCYTUE\Docker_XETXER\20201028112744\aveva_edge_hmi_iotview.tar - Size 372495872 Bytes (355 MBs)- Free Space 387739176960 Bytes (369776 MBs)
